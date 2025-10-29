@@ -3,7 +3,7 @@ name: Daily DevOps Job Alert
 on:
   schedule:
     - cron: "*/5 * * * *"  # Runs daily at 11:25 AM IST (5:55 AM UTC)
-#   workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   job_alert:
