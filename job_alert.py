@@ -19,7 +19,7 @@ for job in soup.select("a.title")[:10]:
 # Email setup
 sender_email = "prakashreddy22.v@gmail.com"
 receiver_email = "prakashreddy22.v@gmail.com"
-password = "YOUR_APP_PASSWORD"
+password = "ombrqkjvovfksrlr"
 
 body = f"DevOps Engineer Jobs in Hyderabad ({datetime.now().strftime('%Y-%m-%d %H:%M')})\n\n" + "\n\n".join(jobs)
 msg = MIMEText(body)
