@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 from datetime import datetime
 
 # Search query
-search_url = "https://www.naukri.com/devops-engineer-jobs-in-hyderabad"
+search_url = "https://www.linkedin.com/jobs/search/?keywords=devops%20engineer&location=Hyderabad%2C%20Telangana%2C%20India"
 response = requests.get(search_url)
 soup = BeautifulSoup(response.text, "html.parser")
 
