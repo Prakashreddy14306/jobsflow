@@ -1,8 +1,11 @@
 name: Daily DevOps Job Alert
 
 on:
-  schedule:
-    - cron: "* * * * *"  # Runs daily at 11:25 AM IST (5:55 AM UTC)
+    push:
+        branches:
+        - main
+    schedule:
+        - cron: "* * * * *"  # Runs daily at 11:25 AM IST (5:55 AM UTC)
 
 jobs:
   job_alert:
