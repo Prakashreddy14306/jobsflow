@@ -33,3 +33,5 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
     server.send_message(msg)
 
 print("✅ Email sent with job listings!")
+
+# Note: Ensure to use environment variables or secure vaults for sensitive information like email passwords in production code.
