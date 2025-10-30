@@ -35,3 +35,7 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
 print("✅ Email sent with job listings!")
 
 # Note: Ensure to use environment variables or secure vaults for sensitive information like email passwords in production code.
+# --- IGNORE ---
+# End of file
+# new line
+# another new line
